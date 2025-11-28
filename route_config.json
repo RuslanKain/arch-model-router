@@ -1,0 +1,72 @@
+[
+  {
+    "name": "general_chat",
+    "description": "Open-ended small talk, casual conversation, or broad assistance not asking for facts, summary, or code.",
+    "models": [
+      {
+        "id": "google/flan-t5-xxl",
+        "first_seen": "2025-11-14T05:43:11Z",
+        "last_used": "2025-11-14T06:09:42Z",
+        "last_reason": "The user initiated a casual conversation."
+      }
+    ]
+  },
+  {
+    "name": "summarization",
+    "description": "Requests to 'summarize', 'condense', 'tl;dr', or produce a shorter version of provided text.",
+    "models": [
+      {
+        "id": "google/flan-t5-xxl",
+        "first_seen": "2025-11-14T05:44:12Z",
+        "last_used": "2025-11-14T06:10:19Z",
+        "last_reason": "The user requested summarizing the article."
+      }
+    ]
+  },
+  {
+    "name": "knowledge_qa",
+    "description": "Short factual questions seeking a specific answer (science, history, people, places, definitions).",
+    "models": [
+      {
+        "id": "google/flan-t5-xxl",
+        "first_seen": "2025-11-14T05:44:47Z",
+        "last_used": "2025-11-14T06:10:56Z",
+        "last_reason": "The user asked a general knowledge question."
+      }
+    ]
+  },
+  {
+    "name": "code_generation",
+    "description": "Requests to write new code, functions, algorithms, or boilerplate from scratch.",
+    "models": [
+      {
+        "id": "google/flan-t5-xxl",
+        "first_seen": "2025-11-14T05:19:38Z",
+        "last_used": "2025-11-14T06:11:33Z",
+        "last_reason": "The user requested writing new code."
+      }
+    ]
+  },
+  {
+    "name": "code_debugging",
+    "description": "Provided broken code or error messages asking for fixes, explanations, or corrections.",
+    "models": [
+      {
+        "id": "google/flan-t5-xxl",
+        "first_seen": "2025-11-14T05:20:06Z",
+        "last_used": "2025-11-14T06:12:10Z",
+        "last_reason": "The user supplied broken code."
+      }
+    ]
+  },
+  {
+    "name": "image_generation",
+    "description": "User wants to create/generate an image from a textual description. Output is an image.",
+    "models": []
+  },
+  {
+    "name": "image_understanding",
+    "description": "User supplies or references an image and asks for description, objects, or interpretation of its content.",
+    "models": []
+  }
+]
